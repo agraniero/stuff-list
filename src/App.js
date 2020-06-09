@@ -1,5 +1,4 @@
 import React from 'react';
-import Home from './components/home'
 //import { connect } from 'react-redux';
 import ListingsContainer from './containers/ListingsContainer'
 
@@ -23,7 +22,8 @@ class App extends React.Component {
 
     return (
       <div style={myStyle2} className="App">
-        <Home />
+        {/* <NavBar /> */}
+        
         <ListingsContainer />
       </div>
     );

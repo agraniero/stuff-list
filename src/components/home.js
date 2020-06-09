@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+//import { Route } from 'react-router-dom';
+
 
 export default class Home extends React.Component {
  
@@ -14,10 +16,10 @@ export default class Home extends React.Component {
       <div>
         <h1
           style={{
-            fontFamily: "perpetua",
+            fontFamily: "Tw Cen MT",
             // fontFamily: "verdana",
-            color: "lightGreen",
-            textShadow: "2px 2px 5px mediumBlue",
+            color: "pink",
+            textShadow: "2px 2px 5px slateBlue",
             textAlign: "center",
             fontSize: "75px",
           }}
@@ -32,13 +34,13 @@ export default class Home extends React.Component {
             <button
               style={{
                 padding: '1%',
-                fontFamily: "verdana",
+                fontFamily: "Tw Cen MT",
                 color: "lightBlue",
                 textShadow: "2px 2px 5px midnightBlue",
                 fontSize: "40px",
                 backgroundColor: "fireBrick",
               }}
-            // onClick={this.handleClick}
+           
             >
               listings
           </button>
@@ -50,11 +52,11 @@ export default class Home extends React.Component {
           <button
             style={{
               padding: '1%',
-              fontFamily: "verdana",
-              color: "lightBlue",
-              textShadow: "2px 2px 5px midnightBlue",
+              fontFamily: "Tw Cen MT",
+              color: "chartreuse",
+              textShadow: "2px 2px 5px navajoWhite",
               fontSize: "40px",
-              backgroundColor: "fireBrick",
+              backgroundColor: "black",
             }}
           >
             new listing

@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import Listing from './Listing';
 
 const Listings = (props) => {
   return (

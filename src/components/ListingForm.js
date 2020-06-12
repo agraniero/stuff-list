@@ -21,7 +21,7 @@ class ListingForm extends Component {
     });
   };
 
-  handleDropdown = (event) => {
+  handleDropdown = (event)=> {
     
     this.setState({
       
@@ -39,10 +39,13 @@ class ListingForm extends Component {
       location: "",
       contact_info: "",
     });
-    console.log(this.state)
+    //console.log(this.state)
+    this.props.history.push('/listings');
+    
   };
 
   render() {
+    
     const mystyle = {
       padding: "20%",
       color: "navajoWhite",
@@ -60,7 +63,7 @@ class ListingForm extends Component {
             <header
               style={{
                 textShadow: "2px 2px 5px white",
-                color: "fireBrick",
+                color: "black",
                 fontSize: "82px",
                 //fontFamily: 'perpetua'
               }}
@@ -72,7 +75,7 @@ class ListingForm extends Component {
               type="text"
               placeholder="name"
               name="name"
-              defaultValue={this.state.location}
+              defaultValue={this.state.name}
               onChange={this.handleChange}
             />
             <br></br>

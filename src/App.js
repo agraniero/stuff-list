@@ -9,10 +9,10 @@ class App extends React.Component {
     
     const myStyle2 = {
     
-      backgroundColor: "#100D23",
+      //backgroundColor: "#100D23",
       backgroundSize: "cover",
       backgroundImageOpacity: "80%",
-      //backgroundImage: "url('https://i.imgur.com/Yn6tACS.jpg')",
+      backgroundImage: "url('https://i.imgur.com/Yn6tACS.jpg')",
       
       //backgroundImage: "url('https://i.pinimg.com/564x/79/bd/9d/79bd9d5cd442a4f5089c1a05cee87eb1.jpg')",
       // fontFamily: "Helvetica",

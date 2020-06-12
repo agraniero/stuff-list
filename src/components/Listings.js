@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Listings = (props) => {
   return (
@@ -16,16 +17,16 @@ const Listings = (props) => {
         {props.listings.map((listing) => (
           <div key={listing.id}>
             <p
-              style={{ textShadow: "2px 2px 5px navajoWhite", color: "indigo" }}
+              style={{ textShadow: "2px 2px 5px navajoWhite", color: "black" }}
             >
               Listing Description:
             </p>
-            {listing.name}
-            <br></br>
-            <br></br>
+            <Link to={`/listings/${listing.id}`}>{listing.name}</Link>
+            
+            <br/>
             {listing.description}
             <p
-              style={{ textShadow: "2px 2px 5px navajoWhite", color: "indigo" }}
+              style={{ textShadow: "2px 2px 5px navajoWhite", color: "black" }}
             >
               Located:
             </p>
@@ -33,7 +34,7 @@ const Listings = (props) => {
             <p
               style={{
                 textShadow: "2px 2px 5px navajoWhite",
-                color: "indigo",
+                color: "black",
               }}
             >
               Status:{" "}
@@ -42,7 +43,7 @@ const Listings = (props) => {
             <p
               style={{
                 textShadow: "2px 2px 5px navajoWhite",
-                color: "indigo",
+                color: "black",
               }}
             >
               Contact Info:

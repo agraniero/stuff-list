@@ -8,6 +8,7 @@ export function fetchListings() {
         type: 'GET_LISTINGS',
         payload: listings
       }))
-    }
+  }
+  
   }
 

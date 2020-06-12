@@ -18,8 +18,9 @@ export default class Home extends React.Component {
           style={{
             fontFamily: "Tw Cen MT",
             // fontFamily: "verdana",
-            color: "pink",
-            textShadow: "2px 2px 5px slateBlue",
+            //color: "navajoWhite",
+            textShadow: "2px 2px 5px navajoWhite",
+            color: "black",
             textAlign: "center",
             fontSize: "75px",
           }}
@@ -35,10 +36,10 @@ export default class Home extends React.Component {
               style={{
                 padding: '1%',
                 fontFamily: "Tw Cen MT",
-                color: "lightBlue",
-                textShadow: "2px 2px 5px midnightBlue",
-                fontSize: "40px",
-                backgroundColor: "fireBrick",
+                color: "lightSkyBlue",
+                textShadow: "2px 2px 5px navajoWhite",
+                fontSize: "30px",
+                backgroundColor: "black",
               }}
            
             >
@@ -53,9 +54,9 @@ export default class Home extends React.Component {
             style={{
               padding: '1%',
               fontFamily: "Tw Cen MT",
-              color: "chartreuse",
+              color: "lightSkyBlue",
               textShadow: "2px 2px 5px navajoWhite",
-              fontSize: "40px",
+              fontSize: "30px",
               backgroundColor: "black",
             }}
           >
